@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width:150px;
+    border-radius: 20%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px;
+
+
+}
+
+.nav-list li-a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+#services{
+    display: flex;
+    flex-direction: column;
+    background-color: #87BFBF;
+    width: 100%;
+    height:170vh;
+    margin-top:-120px;
+    z-index: -1;
+}
+.box_1{ 
+    position: relative;
+    top: 2%;
+    left: 35%;
+    height: 25%;
+    width: 20%;
+    border: none;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 80px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+
+
+.box_2{ 
+    position: relative;
+    left: 35%;
+    height: 150%;
+    width: 20%;
+    border: none;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 80px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#zigzag{
+  
+}
+#button{
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:10px;
+        background-color: #87BFBF;
+        margin-left:65px;
+}
+
+
+/* Footer */ 
+
+.container1{
+    display: flex;
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60vh;
+    bottom: 0px;
+}
+
+.logobottom{
+    position: relative;
+    display: flex;
+    left: 15%;
+    top: 10%;
+    width: 20%;
+    height: 10%;
+}
+
+.Col1 h2{
+    display: flex;
+    position: relative;
+    right: 70%;
+    top: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Col2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 4%;
+    top: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 70%;
+    margin-top: 140%;
+}
+
+
+.Lists1{
+    position: relative;
+    display: flex;
+    top: 7%;
+}
+
+.Col4{  
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: 20%;
+    top: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Lists2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 1%;
+}
